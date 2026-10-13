@@ -16,4 +16,9 @@
 	(fp_line (start -3.5 1.75) (end -3.5 -1.75) (layer F.CrtYd) (width 0.05))
 	(pad 1 smd rect (at -2.05 0 0) (size 1.9 2.5) (layers F.Cu F.Paste F.Mask))
 	(pad 2 smd rect (at  2.05 0 0) (size 1.9 2.5) (layers F.Cu F.Paste F.Mask))
+	(model "${KIPRJMOD}/../library/easyeda2kicad.3dshapes/FUSE-SMD_L6.1-W2.7-H2.7.wrl"
+		(offset (xyz 0.000 0.000 0.000))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )

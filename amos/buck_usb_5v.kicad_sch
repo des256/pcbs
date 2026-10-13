@@ -2453,7 +2453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA6028S"
+		(property "Footprint" "easyeda2kicad:IND-SMD_L10.2-W10.2_7447798720"
 			(at 156.21 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2476,6 +2476,39 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 156.21 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C105681"
+			(at 156.21 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "7447798720"
+			(at 156.21 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
 			(at 156.21 73.66 0)
 			(hide yes)
 			(show_name no)

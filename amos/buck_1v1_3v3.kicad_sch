@@ -2863,7 +2863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4018S"
+		(property "Footprint" "easyeda2kicad:IND-SMD_L4.0-W4.0_LQH44PN2R2MP0L"
 			(at 77.47 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2886,6 +2886,39 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 77.47 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C135262"
+			(at 77.47 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMNR4020-2.2UH"
+			(at 77.47 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SXN"
 			(at 77.47 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2942,7 +2975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4018S"
+		(property "Footprint" "easyeda2kicad:IND-SMD_L4.0-W4.0_LQH44PN2R2MP0L"
 			(at 176.53 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2965,6 +2998,39 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 176.53 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C135262"
+			(at 176.53 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMNR4020-2.2UH"
+			(at 176.53 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SXN"
 			(at 176.53 107.95 0)
 			(hide yes)
 			(show_name no)

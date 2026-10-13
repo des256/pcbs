@@ -28,7 +28,7 @@
 	(fp_line (start -2.50 -3.05) (end 2.50 -3.05) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.50 -3.05) (end 2.50 2.95) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.50 2.95) (end -2.50 2.95) (layer F.CrtYd) (width 0.05))
-	(model "library/easyeda2kicad.3dshapes/SON-8_L5.0-W6.0-P1.27-BL-1.wrl"
+	(model "${KIPRJMOD}/../library/easyeda2kicad.3dshapes/SON-8_L5.0-W6.0-P1.27-BL-1.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

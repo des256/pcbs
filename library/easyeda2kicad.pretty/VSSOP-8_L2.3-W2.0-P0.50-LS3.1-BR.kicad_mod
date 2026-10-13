@@ -29,7 +29,7 @@
 	(fp_line (start -1.15 1.00) (end -1.15 -1.00) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -1.15 -1.00) (end 1.15 -1.00) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.15 -1.00) (end 1.15 1.00) (layer F.CrtYd) (width 0.05))
-	(model "library/easyeda2kicad.3dshapes/VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL.wrl"
+	(model "${KIPRJMOD}/../library/easyeda2kicad.3dshapes/VSSOP-8_L2.3-W2.0-P0.50-LS3.1-BL.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 270))

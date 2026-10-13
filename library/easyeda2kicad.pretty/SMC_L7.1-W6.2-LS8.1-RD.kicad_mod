@@ -30,7 +30,7 @@
 	(fp_line (start 3.43 -2.95) (end 3.43 2.95) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 3.43 2.95) (end -3.43 2.95) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -3.43 2.95) (end -3.43 -2.95) (layer F.CrtYd) (width 0.05))
-	(model "library/easyeda2kicad.3dshapes/SMC_L7.1-W6.2-LS8.1-RD.wrl"
+	(model "${KIPRJMOD}/../library/easyeda2kicad.3dshapes/SMC_L7.1-W6.2-LS8.1-RD.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

@@ -34,7 +34,7 @@
 	(fp_line (start -6.55 -3.20) (end 6.55 -3.20) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 6.55 -3.20) (end 6.55 13.60) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 6.55 13.60) (end -6.55 13.60) (layer F.CrtYd) (width 0.05))
-	(model "library/easyeda2kicad.3dshapes/USB-3.0-A-TH_HC-ST-003-01-Z.wrl"
+	(model "${KIPRJMOD}/../library/easyeda2kicad.3dshapes/USB-3.0-A-TH_HC-ST-003-01-Z.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

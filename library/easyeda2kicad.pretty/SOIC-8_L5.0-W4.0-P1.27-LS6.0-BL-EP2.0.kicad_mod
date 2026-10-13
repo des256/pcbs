@@ -35,7 +35,7 @@
 	(fp_line (start -2.45 -1.95) (end 2.45 -1.95) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.45 -1.95) (end 2.45 1.95) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.45 1.95) (end -2.45 1.95) (layer F.CrtYd) (width 0.05))
-	(model "library/easyeda2kicad.3dshapes/SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP2.0.wrl"
+	(model "${KIPRJMOD}/../library/easyeda2kicad.3dshapes/SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP2.0.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

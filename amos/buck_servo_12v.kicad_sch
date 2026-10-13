@@ -2500,6 +2500,12 @@
 		(uuid "97c136a1-ea36-43f8-a03c-7ca67167c75c")
 	)
 	(junction
+		(at 175.26 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e50069-afd0-41bc-8254-0d0e0b0097a1")
+	)
+	(junction
 		(at 175.26 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2672,6 +2678,16 @@
 			(type default)
 		)
 		(uuid "0d61e019-113f-4cf4-9e84-144d4cb484a9")
+	)
+	(wire
+		(pts
+			(xy 175.26 48.26) (xy 175.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f41c373-3c31-49ce-a510-79fb7a6c0b22")
 	)
 	(wire
 		(pts
@@ -3075,6 +3091,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 68.58) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a35be1-329f-4aed-b1d4-2e3274746fe4")
+	)
+	(wire
+		(pts
 			(xy 210.82 81.28) (xy 210.82 83.82)
 		)
 		(stroke
@@ -3292,6 +3318,16 @@
 			(type default)
 		)
 		(uuid "b0884daf-1e94-41c8-9bf2-01a5f27bc909")
+	)
+	(wire
+		(pts
+			(xy 175.26 58.42) (xy 175.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b277e95c-cd4f-4ec6-9150-55b4d316340e")
 	)
 	(wire
 		(pts
@@ -3718,6 +3754,84 @@
 			(project "amos"
 				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/d7f0cded-9581-422f-bcb0-11beb4cf16c7"
 					(reference "R303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05fa8fea-44cd-4bbd-b1ed-c98f1056b13f")
+		(property "Reference" "#PWR0256"
+			(at 175.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00d89747-3126-41af-a4ef-d39da7a35d58")
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/d7f0cded-9581-422f-bcb0-11beb4cf16c7"
+					(reference "#PWR0256")
 					(unit 1)
 				)
 			)
@@ -5094,6 +5208,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 175.26 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5a360a05-0f83-42f2-8737-8dac7b167ec7")
+		(property "Reference" "R312"
+			(at 172.72 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2"
+			(at 172.72 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R_0603"
+			(at 175.26 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+			(at 175.26 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22939"
+			(at 175.26 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d758cefc-d32e-4023-8818-d1b848b0fe12")
+		)
+		(pin "2"
+			(uuid "8cc54227-2d02-4f1a-a5e2-337b3d07b699")
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/d7f0cded-9581-422f-bcb0-11beb4cf16c7"
+					(reference "R312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 96.52 96.52 270)
 		(unit 1)
@@ -5350,7 +5557,7 @@
 				)
 			)
 		)
-		(property "Value" "680uF"
+		(property "Value" "680pF"
 			(at 64.77 101.092 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5360,7 +5567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.58 93.0148 0)
 			(hide yes)
 			(show_name no)
@@ -6695,7 +6902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-4040"
+		(property "Footprint" "easyeda2kicad:IND-SMD_L13.5-W12.6"
 			(at 217.17 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6718,6 +6925,39 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 217.17 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2880057"
+			(at 217.17 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TMPA1265SP-4R7MN-D"
+			(at 217.17 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TAI-TECH"
 			(at 217.17 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7058,6 +7298,99 @@
 			(project "amos"
 				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/d7f0cded-9581-422f-bcb0-11beb4cf16c7"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 54.61 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ec51f10d-410d-448f-81df-92e1296f87b8")
+		(property "Reference" "C308"
+			(at 172.72 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 172.72 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 175.26 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+			(at 175.26 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14858"
+			(at 175.26 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b630a213-7b6d-4d80-a004-a0c7d7cdf151")
+		)
+		(pin "2"
+			(uuid "b32d78db-06ef-42e1-a6a8-258e7661298a")
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/d7f0cded-9581-422f-bcb0-11beb4cf16c7"
+					(reference "C308")
 					(unit 1)
 				)
 			)

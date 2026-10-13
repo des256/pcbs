@@ -203,7 +203,7 @@
 			)
 		)
 	)
-	(model "library/easyeda2kicad.3dshapes/OSC-SMD_4P-L3.2-W2.5-BL.step"
+	(model "${KIPRJMOD}/../library/easyeda2kicad.3dshapes/OSC-SMD_4P-L3.2-W2.5-BL.step"
 		(offset
 			(xyz 0 0 0)
 		)
