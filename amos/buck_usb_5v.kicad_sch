@@ -2183,6 +2183,26 @@
 		)
 		(uuid "e88a5ff8-8866-4b93-80f1-db58f48f545a")
 	)
+	(label "D5_V190"
+		(at 116.84 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53040a1b-a4fc-4dff-8054-7913ecb070cd")
+	)
+	(label "D5_V50"
+		(at 160.02 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60f8ecd4-e782-4f78-80f8-3c3b6f4d5a9b")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 149.86 104.14 0)
@@ -2335,6 +2355,84 @@
 			(project "amos"
 				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/ab1c4862-f26c-48b1-b183-8bee700199c6"
 					(reference "C501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V_USB")
+		(at 133.35 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "287a6d6d-4303-4499-8493-a31d494f819d")
+		(property "Reference" "#PWR0324"
+			(at 133.35 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_USB"
+			(at 133.35 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 133.35 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4da5f0a1-0560-4ea8-8b9a-5748cd329d9c")
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/ab1c4862-f26c-48b1-b183-8bee700199c6"
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)

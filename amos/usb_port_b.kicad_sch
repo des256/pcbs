@@ -1987,7 +1987,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V_USB"
+		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2012,7 +2012,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V_USB"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2044,7 +2044,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V_USB\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2066,7 +2066,7 @@
 					)
 				)
 			)
-			(symbol "+5V_USB_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2104,7 +2104,7 @@
 					)
 				)
 			)
-			(symbol "+5V_USB_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2259,10 +2259,22 @@
 		(uuid "1434f444-c7eb-4397-a4ca-b2aa0c5042c2")
 	)
 	(junction
+		(at 59.69 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "383c3b14-c755-4bc0-87db-afe00fd19e4f")
+	)
+	(junction
 		(at 62.23 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ffacab6-7697-40c0-8aad-e67b689fcce4")
+	)
+	(junction
+		(at 59.69 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40e8eab5-f51c-4a52-aa61-922fa78dd130")
 	)
 	(junction
 		(at 67.31 52.07)
@@ -2324,6 +2336,22 @@
 		(color 0 0 0 0)
 		(uuid "ebc1ea2a-103d-4e27-9e7a-ed6dd1144549")
 	)
+	(no_connect
+		(at 109.22 67.31)
+		(uuid "830c7e8c-fe38-4d05-91dc-ce146d3799f6")
+	)
+	(no_connect
+		(at 109.22 59.69)
+		(uuid "9855c911-d4cd-4177-bbd2-ccdb1ae39957")
+	)
+	(no_connect
+		(at 109.22 62.23)
+		(uuid "999ec4ba-ddc1-4d82-a950-c394ed873d8e")
+	)
+	(no_connect
+		(at 109.22 69.85)
+		(uuid "a3427579-b991-4d58-b632-696ffda66e27")
+	)
 	(wire
 		(pts
 			(xy 67.31 52.07) (xy 67.31 139.7)
@@ -2353,6 +2381,16 @@
 			(type default)
 		)
 		(uuid "0809d029-c13f-4de8-8c62-6006b7be90df")
+	)
+	(wire
+		(pts
+			(xy 59.69 151.13) (xy 59.69 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d46fbf8-f858-4906-84ee-e2f90f4e7db1")
 	)
 	(wire
 		(pts
@@ -2416,6 +2454,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 163.83) (xy 72.39 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e229df-3b5e-400b-a83c-42acc035be48")
+	)
+	(wire
+		(pts
 			(xy 165.1 67.31) (xy 167.64 67.31)
 		)
 		(stroke
@@ -2443,6 +2491,16 @@
 			(type default)
 		)
 		(uuid "24d57c6e-c72c-4b72-9539-9192435b2989")
+	)
+	(wire
+		(pts
+			(xy 59.69 166.37) (xy 72.39 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a4bd1a-3bbe-4691-af98-7db368e91d47")
 	)
 	(wire
 		(pts
@@ -2493,6 +2551,16 @@
 			(type default)
 		)
 		(uuid "39e52783-2d4f-47ac-93fb-bd76202d1818")
+	)
+	(wire
+		(pts
+			(xy 59.69 163.83) (xy 59.69 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b36514f-1011-42f1-806d-cf7798377859")
 	)
 	(wire
 		(pts
@@ -2613,6 +2681,16 @@
 			(type default)
 		)
 		(uuid "53ace23f-b509-4097-a1a7-c5d07ed402e0")
+	)
+	(wire
+		(pts
+			(xy 59.69 153.67) (xy 59.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aadc155-e490-47da-96be-9716dcdfd3ee")
 	)
 	(wire
 		(pts
@@ -2756,6 +2834,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 156.21) (xy 72.39 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828c2585-fe62-4130-94e1-2be42931f325")
+	)
+	(wire
+		(pts
 			(xy 54.61 52.07) (xy 57.15 52.07)
 		)
 		(stroke
@@ -2886,6 +2974,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 153.67) (xy 72.39 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a502a736-3bb4-4b17-ad0c-60fbb4ffa95e")
+	)
+	(wire
+		(pts
 			(xy 203.2 121.92) (xy 203.2 92.71)
 		)
 		(stroke
@@ -2903,6 +3001,16 @@
 			(type default)
 		)
 		(uuid "ac17b61b-ae99-477a-bf3c-78e18341c3dc")
+	)
+	(wire
+		(pts
+			(xy 59.69 166.37) (xy 59.69 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35af3b9-a9d6-4688-9b80-7db3b5bca360")
 	)
 	(wire
 		(pts
@@ -3056,16 +3164,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 67.31) (xy 128.27 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d51b5f2f-6d94-4b67-8ea0-24119cb2afe7")
-	)
-	(wire
-		(pts
 			(xy 154.94 106.68) (xy 154.94 90.17)
 		)
 		(stroke
@@ -3213,6 +3311,26 @@
 			(type default)
 		)
 		(uuid "fdc58c54-f9c3-40ec-8925-115ad4b4774b")
+	)
+	(label "D14_V50"
+		(at 128.27 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "779e8e3a-c677-41a6-ac78-e812904a477f")
+	)
+	(label "D14_V50"
+		(at 59.69 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bbee38d-d22e-45fe-879c-feb091aa9cc7")
 	)
 	(hierarchical_label "USBB_DP"
 		(shape bidirectional)
@@ -4204,6 +4322,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 72.39 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a540837-159a-498c-bd70-9fe2bbf9f0b9")
+		(property "Reference" "C1409"
+			(at 76.2 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 76.2 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.3552 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "588c1ff9-883d-4637-b248-f6d7a4e4652f")
+		)
+		(pin "2"
+			(uuid "4daf2f9a-3b54-4b17-a2c8-62140530bede")
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/a35af9f7-924a-481a-a188-aaa80b658671"
+					(reference "C1409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 59.69 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3acc2083-7317-469b-9e03-c489d03bd337")
+		(property "Reference" "#PWR0125"
+			(at 59.69 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_USB"
+			(at 59.69 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 59.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "686a712f-17f4-44a4-9916-8c6fff161f4a")
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/a35af9f7-924a-481a-a188-aaa80b658671"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 52.07 180)
 		(unit 1)
@@ -4419,8 +4697,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V_USB")
-		(at 125.73 67.31 90)
+		(lib_id "power:GND")
+		(at 59.69 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4429,9 +4707,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "77b3f8bd-b154-4b0f-bed8-9d252795b7e7")
-		(property "Reference" "#PWR0235"
-			(at 129.54 67.31 0)
+		(uuid "78895fc3-c535-4701-b686-1b0f9370e328")
+		(property "Reference" "#PWR0285"
+			(at 59.69 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,19 +4719,18 @@
 				)
 			)
 		)
-		(property "Value" "+5V_USB"
-			(at 121.92 67.3099 90)
+		(property "Value" "GND"
+			(at 59.69 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 67.31 0)
+			(at 59.69 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4464,7 +4741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 67.31 0)
+			(at 59.69 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4474,8 +4751,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 125.73 67.31 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4486,12 +4763,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8ed7e89-4b5e-4926-ba03-519fa43d4812")
+			(uuid "625df585-8c24-427e-a73d-29f55bae80b9")
 		)
 		(instances
 			(project "amos"
 				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/a35af9f7-924a-481a-a188-aaa80b658671"
-					(reference "#PWR0235")
+					(reference "#PWR0285")
 					(unit 1)
 				)
 			)
@@ -5288,6 +5565,88 @@
 			(project "amos"
 				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/a35af9f7-924a-481a-a188-aaa80b658671"
 					(reference "D1402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe93a19f-6227-47cb-9929-2f856b2c1f1c")
+		(property "Reference" "C1408"
+			(at 63.5 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 63.5 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.6552 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4530c7bf-0cfb-478e-b918-40739f820ecd")
+		)
+		(pin "2"
+			(uuid "a49c5c16-1905-4ae5-a39c-862a08e74588")
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/a35af9f7-924a-481a-a188-aaa80b658671"
+					(reference "C1408")
 					(unit 1)
 				)
 			)

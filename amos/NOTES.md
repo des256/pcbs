@@ -202,3 +202,99 @@ One simplification: for the short hop from F201 to Q201, both pads are top-only 
 buys little unless you add full fields at both ends. Make that hop full width on the top layer alone, about 8 mm
 at a 20 °C rise, and start the mirrored pour at the Q201 drain. Set the via size per net class so the power
 classes default to the larger drill and you don't have to pick it each time.
+
+==== decoupling caps
+
+┌────────────────┬──────────┬─────────────────────────────────────────────┬────────────────────────────────────────────────┐
+│ Archive ref │ Value │ Decouples │ Physical placement │
+├────────────────┼──────────┼─────────────────────────────────────────────┼────────────────────────────────────────────────┤
+OK │ C707–C714 (×8) │ 100nF ea │ TUSB8041 VDD3V3 — each separate I/O VDD pin │ One cap per VDD pin, distributed around the IC │
+├────────────────┼──────────┼─────────────────────────────────────────────┼────────────────────────────────────────────────┤
+│ C715 │ 10uF │ TUSB8041 VDD3V3 bulk │ Main +3V3 power entry to TUSB8041 │
+├────────────────┼──────────┼─────────────────────────────────────────────┼────────────────────────────────────────────────┤
+OK │ C716–C719 (×4) │ 100nF ea │ +3V3 at TUSB8041 analog/SMBUS VDD group │ Near the +3V3 entry pins │
+├────────────────┼──────────┼─────────────────────────────────────────────┼────────────────────────────────────────────────┤
+OK │ C720 │ 10uF │ +3V3 bulk (analog group) │ Alongside C716–C719 │
+├────────────────┼──────────┼─────────────────────────────────────────────┼────────────────────────────────────────────────┤
+│ C705 │ 4.7uF │ +5V_USB supply to TUSB8041 │ Near the +5V_USB pin │
+├────────────────┼──────────┼─────────────────────────────────────────────┼────────────────────────────────────────────────┤
+OK │ C706 │ 22uF │ +1V1_HUB core supply bulk │ Near the TUSB8041 core VDD pins │
+├────────────────┼──────────┼─────────────────────────────────────────────┼────────────────────────────────────────────────┤
+│ C704 │ 6.8pF │ +1V1_HUB crystal trimming │ Near crystal and 1.1V supply │
+└────────────────┴──────────┴─────────────────────────────────────────────┴────────────────────────────────────────────────┘
+
+┌──────────────────┬──────────┬────────────────────────────────────────┬─────────────────────────────────────────────┐  
+ │ Missing │ Value │ Decouples │ Physical placement │  
+ ├──────────────────┼──────────┼────────────────────────────────────────┼─────────────────────────────────────────────┤  
+OK │ C1104–C1107 (×4) │ 100nF ea │ CH344Q VCC pins (channels 1–4) on +3V3 │ One 100nF next to each of the four VCC pins │  
+ ├──────────────────┼──────────┼────────────────────────────────────────┼─────────────────────────────────────────────┤  
+OK │ C1108 │ 10uF │ CH344Q +3V3 bulk │ Near the IC power entry │  
+ └──────────────────┴──────────┴────────────────────────────────────────┴─────────────────────────────────────────────┘
+
+┌──────────────────────────┬──────────┬───────────────────────────────────────────┬─────────────────────────────┐
+│ Missing (per page) │ Value │ Decouples │ Physical placement │
+├──────────────────────────┼──────────┼───────────────────────────────────────────┼─────────────────────────────┤
+OK │ C*×1 (C1201) │ 100nF │ SP3485EN RS485 transceiver VCC (+3V3) │ Next to SP3485EN VCC pin │
+├──────────────────────────┼──────────┼───────────────────────────────────────────┼─────────────────────────────┤
+OK │ C*×1 (C1202) │ 100nF │ SN74LVC2G241 buffer VCC (+3V3) │ Next to SN74LVC2G241DCU VCC │
+├──────────────────────────┼──────────┼───────────────────────────────────────────┼─────────────────────────────┤
+OK │ C*×1 (C1207) │ 100nF │ TPS259531 power switch VCC/IN (+5V_SERVO) │ Near TPS259531 VCC/IN pin │
+├──────────────────────────┼──────────┼───────────────────────────────────────────┼─────────────────────────────┤
+│ C*×3 (C1203/C1206/C1209) │ 100nF ea │ Additional IC bypass on +3V3/+5V rails │ Distributed near the ICs │
+└──────────────────────────┴──────────┴───────────────────────────────────────────┴─────────────────────────────┘
+
+┌─────────┬───────┬───────────────────────────────────────────┬────────────────────────────────────┐
+│ Missing │ Value │ Decouples │ Physical placement │
+├─────────┼───────┼───────────────────────────────────────────┼────────────────────────────────────┤
+│ C601 │ 100nF │ HD3SS3220 VCONN/CC supply pin │ Next to HD3SS3220RNHR │
+├─────────┼───────┼───────────────────────────────────────────┼────────────────────────────────────┤
+OK │ C602 │ 100nF │ VBUS at USB-C connector / HD3SS3220 VIN │ Near the TYPE-C connector VBUS pin │
+├─────────┼───────┼───────────────────────────────────────────┼────────────────────────────────────┤
+OK │ C605 │ 1uF │ +5V_USB bulk at HD3SS3220/TPD4E05U06 VDD5 │ Near the ICs' VDD5 pin │
+├─────────┼───────┼───────────────────────────────────────────┼────────────────────────────────────┤
+OK │ C606 │ 100nF │ +5V_USB HF bypass │ Alongside C605 │
+└─────────┴───────┴───────────────────────────────────────────┴────────────────────────────────────┘
+
+┌────────────────────┬───────┬─────────────────────────────────┬─────────────────────────────┐
+│ Missing (per page) │ Value │ Decouples │ Physical placement │
+├────────────────────┼───────┼─────────────────────────────────┼─────────────────────────────┤
+OK │ C801 equiv. │ 100nF │ TPS2553 VIN (+5V_USB) HF bypass │ Next to TPS2553DBVR VIN pin │
+├────────────────────┼───────┼─────────────────────────────────┼─────────────────────────────┤
+OK │ C802 equiv. │ 10uF │ TPS2553 VIN (+5V_USB) bulk │ Alongside the 100nF │
+└────────────────────┴───────┴─────────────────────────────────┴─────────────────────────────┘
+
+┌────────────────┬────────────┬───────────────────────────────────────────────┬────────────────────────────────────────────┐
+│ Sheet │ Value │ Decouples │ Physical placement │
+├────────────────┼────────────┼───────────────────────────────────────────────┼────────────────────────────────────────────┤
+OK │ buck-12v-servo │ 100nF 100V │ LM5145 VIN/PVIN (raw 19V input to controller) │ As close as possible to the LM5145 VIN pin │
+├────────────────┼────────────┼───────────────────────────────────────────────┼────────────────────────────────────────────┤
+OK │ buck-5v-servo │ 100nF 100V │ Same │ Same │
+└────────────────┴────────────┴───────────────────────────────────────────────┴────────────────────────────────────────────┘
+
+D16_V330: why two 100nF caps?
+
+12V servo buck: input Q301/Q302: 5x4.7uF 100V 1210 + 100 nF 100V
+5V servo buck: input 5x2.2uF 100V + 100nF 100V
+5V servo buck: output 6x47uF 10V + 470uF 10V
+5V USB buck: TPS54560 input 4x2.2uF 100V output 6x47uF 16V at inductor
+1V1 and 3V3: TLV62569 inputs 4.7uF outputs 22uF
+
+---
+
+Yes, that is correct. The new banks are in and wired right. The 12 V stage has 4×47 µF, 2×22 µF and 2×470 µF on +12V_SERVO, and
+the 5 V stage has 6×47 µF and 470 µF on +5V_SERVO, all to GND, with no floating or shorted pins and no duplicate references.
+
+What is still missing, verified against the fresh export:
+
+- TPS54560 input. Nothing local on the USB buck sheet. Add 4×2.2 µF 100 V from VIN (pin 2) to GND.
+- TPS54560 output. Nothing on +5V_USB on that sheet. Add 3×47 µF 16 V from +5V_USB to GND at L501 pin 2. The 10 µF and 100 nF
+  parts on the USB port and upstream sheets stay where they are, since they decouple the TPS2553s and the HD3SS3220, not the
+  regulator.
+- TLV62569 inputs. Both U601 and U611 have VIN on +5V_USB with no capacitor on their sheet. Add one 4.7 to 10 µF from each VIN
+  to GND. Their outputs are already covered by C602 on +3V3 and C612 plus C717 on +1V1, so nothing is needed there.
+
+Two small notes, neither blocking:
+
+- C319 and C320 are 22 µF 16 V where the reference uses 22 µF 25 V. On a 12 V rail the 16 V part loses noticeably more
+  capacitance to DC bias. It works, but the 25 V part was chosen for a reason.
+- D401 is still fitted. As discussed, it never conducts on a 5 V output, so remove it or mark it do-not-fit whenever convenient.
