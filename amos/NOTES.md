@@ -273,11 +273,11 @@ OK │ buck-5v-servo │ 100nF 100V │ Same │ Same │
 
 D16_V330: why two 100nF caps?
 
-12V servo buck: input Q301/Q302: 5x4.7uF 100V 1210 + 100 nF 100V
-5V servo buck: input 5x2.2uF 100V + 100nF 100V
-5V servo buck: output 6x47uF 10V + 470uF 10V
-5V USB buck: TPS54560 input 4x2.2uF 100V output 6x47uF 16V at inductor
-1V1 and 3V3: TLV62569 inputs 4.7uF outputs 22uF
+OK 12V servo buck: input Q301/Q302: 5x4.7uF 100V 1210 + 100 nF 100V
+OK 5V servo buck: input 5x2.2uF 100V + 100nF 100V
+OK 5V servo buck: output 6x47uF 10V + 470uF 10V
+OK 5V USB buck: TPS54560 input 4x2.2uF 100V output 6x47uF 16V at inductor
+OK 1V1 and 3V3: TLV62569 inputs 4.7uF outputs 22uF
 
 ---
 

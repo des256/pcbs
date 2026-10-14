@@ -283,172 +283,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2848,7 +2682,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 161.29) (xy 186.69 163.83)
+			(xy 186.69 158.75) (xy 186.69 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3038,16 +2872,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 107.95) (xy 222.25 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28b0912e-5984-4676-a737-74065c09feeb")
-	)
-	(wire
-		(pts
 			(xy 173.99 54.61) (xy 173.99 57.15)
 		)
 		(stroke
@@ -3098,7 +2922,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 161.29) (xy 250.19 163.83)
+			(xy 250.19 158.75) (xy 250.19 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3148,7 +2972,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 151.13) (xy 127 153.67)
+			(xy 127 148.59) (xy 127 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3235,16 +3059,6 @@
 			(type default)
 		)
 		(uuid "50de8f91-f672-4391-a31e-c6d9e2fe6cf3")
-	)
-	(wire
-		(pts
-			(xy 137.16 151.13) (xy 137.16 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5141e0ff-4bb5-4717-9ba6-087aa34417bc")
 	)
 	(wire
 		(pts
@@ -3338,7 +3152,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 161.29) (xy 237.49 163.83)
+			(xy 237.49 158.75) (xy 237.49 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3365,16 +3179,6 @@
 			(type default)
 		)
 		(uuid "64c26fca-2ce0-402d-8dd3-4bd9fd3c6644")
-	)
-	(wire
-		(pts
-			(xy 147.32 151.13) (xy 147.32 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65634953-ddbb-4ecd-a83a-5008e53ad7bd")
 	)
 	(wire
 		(pts
@@ -3448,7 +3252,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 161.29) (xy 212.09 163.83)
+			(xy 212.09 158.75) (xy 212.09 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3598,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 107.95) (xy 212.09 107.95)
+			(xy 156.21 107.95) (xy 222.25 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3688,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 151.13) (xy 106.68 153.67)
+			(xy 106.68 148.59) (xy 106.68 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3728,7 +3532,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 151.13) (xy 116.84 153.67)
+			(xy 116.84 148.59) (xy 116.84 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3768,7 +3572,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 161.29) (xy 262.89 163.83)
+			(xy 262.89 158.75) (xy 262.89 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3818,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 161.29) (xy 224.79 163.83)
+			(xy 224.79 158.75) (xy 224.79 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3998,7 +3802,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 161.29) (xy 199.39 163.83)
+			(xy 199.39 158.75) (xy 199.39 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4025,6 +3829,16 @@
 			(type default)
 		)
 		(uuid "ea610a0b-8c51-4106-8c5f-784860c8a4d3")
+	)
+	(wire
+		(pts
+			(xy 147.32 148.59) (xy 147.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb753fe8-1d2c-4a1a-be49-d241e11a9816")
 	)
 	(wire
 		(pts
@@ -4095,6 +3909,16 @@
 			(type default)
 		)
 		(uuid "f557b0ff-dbd9-4354-a1b6-bef4f5fe1333")
+	)
+	(wire
+		(pts
+			(xy 137.16 148.59) (xy 137.16 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88bd1b4-2c1e-4f2f-aadc-247cc74dc166")
 	)
 	(wire
 		(pts
@@ -4428,7 +4252,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 163.83 0)
+		(at 262.89 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4439,7 +4263,7 @@
 		(fields_autoplaced yes)
 		(uuid "02ad26df-8345-4a6d-8c53-b0473d8a598d")
 		(property "Reference" "#PWR0331"
-			(at 262.89 170.18 0)
+			(at 262.89 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,7 +4274,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 168.91 0)
+			(at 262.89 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4460,7 +4284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 163.83 0)
+			(at 262.89 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4471,7 +4295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 163.83 0)
+			(at 262.89 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4482,7 +4306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 163.83 0)
+			(at 262.89 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5330,8 +5154,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 224.79 156.21 270)
+		(lib_id "Device:C")
+		(at 224.79 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5342,7 +5166,7 @@
 		(fields_autoplaced yes)
 		(uuid "21de308e-137d-4bb7-9618-6322dbc79f0b")
 		(property "Reference" "C423"
-			(at 227.33 154.9399 90)
+			(at 228.6 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5353,7 +5177,7 @@
 			)
 		)
 		(property "Value" "47uF 10V"
-			(at 227.33 157.4799 90)
+			(at 228.6 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5363,8 +5187,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 217.17 156.21 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 224.79 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5374,8 +5198,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 214.63 156.21 0)
+		(property "Datasheet" ""
+			(at 224.79 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +5210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 156.21 0)
+			(at 224.79 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,8 +5220,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 212.09 156.21 0)
+		(property "Manufacturer" ""
+			(at 224.79 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,8 +5231,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 209.55 156.21 0)
+		(property "MPN" ""
+			(at 224.79 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,8 +5242,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 207.01 156.21 0)
+		(property "LCSC Part" "C96123"
+			(at 224.79 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5523,8 +5347,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 137.16 146.05 270)
+		(lib_id "Device:C")
+		(at 137.16 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5535,7 +5359,7 @@
 		(fields_autoplaced yes)
 		(uuid "23836ba3-d34f-477e-88e8-0bc8e418cf8a")
 		(property "Reference" "C418"
-			(at 139.7 144.7799 90)
+			(at 140.97 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5546,7 +5370,7 @@
 			)
 		)
 		(property "Value" "2.2uF 100V"
-			(at 139.7 147.3199 90)
+			(at 140.97 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5556,8 +5380,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 129.54 146.05 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 137.16 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5567,8 +5391,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 127 146.05 0)
+		(property "Datasheet" ""
+			(at 137.16 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5579,7 +5403,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 146.05 0)
+			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5589,8 +5413,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 124.46 146.05 0)
+		(property "Manufacturer" ""
+			(at 137.16 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,8 +5424,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 121.92 146.05 0)
+		(property "MPN" ""
+			(at 137.16 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5611,8 +5435,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 119.38 146.05 0)
+		(property "LCSC Part" "C76686"
+			(at 137.16 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5718,7 +5542,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 153.67 0)
+		(at 147.32 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5729,7 +5553,7 @@
 		(fields_autoplaced yes)
 		(uuid "293129e1-ce94-4bd6-aa6c-3bab6e0b3b01")
 		(property "Reference" "#PWR0322"
-			(at 147.32 160.02 0)
+			(at 147.32 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5740,7 +5564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 158.75 0)
+			(at 147.32 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5750,7 +5574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 153.67 0)
+			(at 147.32 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5761,7 +5585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 153.67 0)
+			(at 147.32 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5772,7 +5596,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 153.67 0)
+			(at 147.32 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5796,7 +5620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 163.83 0)
+		(at 237.49 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5807,7 +5631,7 @@
 		(fields_autoplaced yes)
 		(uuid "2974b46d-af1c-4411-a03c-08432ca3ad6f")
 		(property "Reference" "#PWR0329"
-			(at 237.49 170.18 0)
+			(at 237.49 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +5642,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 168.91 0)
+			(at 237.49 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5828,7 +5652,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 163.83 0)
+			(at 237.49 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5839,7 +5663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 163.83 0)
+			(at 237.49 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5850,7 +5674,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 163.83 0)
+			(at 237.49 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6325,7 +6149,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 153.67 0)
+		(at 106.68 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6336,7 +6160,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fd9503a-70e3-491b-8360-0970d7ebd5b7")
 		(property "Reference" "#PWR0317"
-			(at 106.68 160.02 0)
+			(at 106.68 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6347,7 +6171,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 158.75 0)
+			(at 106.68 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6357,7 +6181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 153.67 0)
+			(at 106.68 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6368,7 +6192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 153.67 0)
+			(at 106.68 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6379,7 +6203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 153.67 0)
+			(at 106.68 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,8 +6306,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 262.89 156.21 270)
+		(lib_id "Device:C")
+		(at 262.89 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6494,7 +6318,7 @@
 		(fields_autoplaced yes)
 		(uuid "66ca6fe3-57a5-433d-acf3-4082b3dc662f")
 		(property "Reference" "C426"
-			(at 265.43 154.9399 90)
+			(at 266.7 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6505,7 +6329,7 @@
 			)
 		)
 		(property "Value" "470uF 10V"
-			(at 265.43 157.4799 90)
+			(at 266.7 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6515,8 +6339,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 255.27 156.21 0)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.3-FD-H7.7"
+			(at 262.89 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6526,8 +6350,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 252.73 156.21 0)
+		(property "Datasheet" ""
+			(at 262.89 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6538,7 +6362,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 156.21 0)
+			(at 262.89 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6548,8 +6372,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 250.19 156.21 0)
+		(property "Manufacturer" ""
+			(at 262.89 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6559,8 +6383,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 247.65 156.21 0)
+		(property "MPN" ""
+			(at 262.89 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6570,8 +6394,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 245.11 156.21 0)
+		(property "LCSC Part" "C46550459"
+			(at 262.89 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6598,7 +6422,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 163.83 0)
+		(at 250.19 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6609,7 +6433,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d128d0e-9794-44c0-b2bf-d835483d0418")
 		(property "Reference" "#PWR0330"
-			(at 250.19 170.18 0)
+			(at 250.19 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6620,7 +6444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 168.91 0)
+			(at 250.19 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6630,7 +6454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 163.83 0)
+			(at 250.19 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6641,7 +6465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 163.83 0)
+			(at 250.19 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6652,7 +6476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 163.83 0)
+			(at 250.19 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6676,7 +6500,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 163.83 0)
+		(at 212.09 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6687,7 +6511,7 @@
 		(fields_autoplaced yes)
 		(uuid "72b707e6-4406-4056-8c0d-ccebf3b4ebfb")
 		(property "Reference" "#PWR0327"
-			(at 212.09 170.18 0)
+			(at 212.09 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6698,7 +6522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 168.91 0)
+			(at 212.09 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6708,7 +6532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 163.83 0)
+			(at 212.09 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6719,7 +6543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 163.83 0)
+			(at 212.09 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6730,7 +6554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 163.83 0)
+			(at 212.09 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6913,7 +6737,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 153.67 0)
+		(at 127 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6924,7 +6748,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ad16fa8-79a6-46d9-9dec-fc173eb507b0")
 		(property "Reference" "#PWR0319"
-			(at 127 160.02 0)
+			(at 127 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6935,7 +6759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 158.75 0)
+			(at 127 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6945,7 +6769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 153.67 0)
+			(at 127 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6956,7 +6780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 153.67 0)
+			(at 127 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6967,7 +6791,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 153.67 0)
+			(at 127 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6991,7 +6815,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 163.83 0)
+		(at 199.39 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7002,7 +6826,7 @@
 		(fields_autoplaced yes)
 		(uuid "7aff5835-9faa-4e4c-9a5c-b6255a3bfd53")
 		(property "Reference" "#PWR0326"
-			(at 199.39 170.18 0)
+			(at 199.39 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7013,7 +6837,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 168.91 0)
+			(at 199.39 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7023,7 +6847,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 163.83 0)
+			(at 199.39 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7034,7 +6858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 163.83 0)
+			(at 199.39 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7045,7 +6869,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 163.83 0)
+			(at 199.39 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7161,8 +6985,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 106.68 146.05 270)
+		(lib_id "Device:C")
+		(at 106.68 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7173,7 +6997,7 @@
 		(fields_autoplaced yes)
 		(uuid "844ed667-cc04-4bea-944a-589ae55793d0")
 		(property "Reference" "C415"
-			(at 109.22 144.7799 90)
+			(at 110.49 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7184,7 +7008,7 @@
 			)
 		)
 		(property "Value" "2.2uF 100V"
-			(at 109.22 147.3199 90)
+			(at 110.49 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7194,8 +7018,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 99.06 146.05 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 106.68 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7205,8 +7029,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 96.52 146.05 0)
+		(property "Datasheet" ""
+			(at 106.68 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7217,7 +7041,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 146.05 0)
+			(at 106.68 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7227,8 +7051,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 93.98 146.05 0)
+		(property "Manufacturer" ""
+			(at 106.68 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7238,8 +7062,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 91.44 146.05 0)
+		(property "MPN" ""
+			(at 106.68 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7249,8 +7073,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 88.9 146.05 0)
+		(property "LCSC Part" "C76686"
+			(at 106.68 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7356,7 +7180,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 163.83 0)
+		(at 224.79 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7367,7 +7191,7 @@
 		(fields_autoplaced yes)
 		(uuid "89517575-fbbd-4ffa-ad90-0c63b25d8971")
 		(property "Reference" "#PWR0328"
-			(at 224.79 170.18 0)
+			(at 224.79 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7378,7 +7202,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 168.91 0)
+			(at 224.79 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7388,7 +7212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 163.83 0)
+			(at 224.79 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7399,7 +7223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 163.83 0)
+			(at 224.79 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,7 +7234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 163.83 0)
+			(at 224.79 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7512,87 +7336,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 215.9 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8d4bc078-289c-4cc5-b0da-d1d10c6bfac6")
-		(property "Reference" "D401"
-			(at 215.9 111.506 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS14"
-			(at 215.9 114.046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 215.9 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 215.9 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e90445d6-fbd2-4f59-99a4-0a7ffa9efeab")
-		)
-		(pin "2"
-			(uuid "d5cfb321-baee-48de-84c7-b1ded8be5cc3")
-		)
-		(instances
-			(project "amos"
-				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/569f1273-c4c9-4c2d-aff2-f69186f3b6d8"
-					(reference "D401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 137.16 153.67 0)
+		(at 137.16 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7603,7 +7348,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f52a4f7-b636-40e0-a83e-1c1c687a77bc")
 		(property "Reference" "#PWR0320"
-			(at 137.16 160.02 0)
+			(at 137.16 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7614,7 +7359,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 158.75 0)
+			(at 137.16 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7624,7 +7369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 153.67 0)
+			(at 137.16 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7635,7 +7380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 153.67 0)
+			(at 137.16 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7646,7 +7391,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 153.67 0)
+			(at 137.16 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7751,8 +7496,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 127 146.05 270)
+		(lib_id "Device:C")
+		(at 127 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7763,7 +7508,7 @@
 		(fields_autoplaced yes)
 		(uuid "91c4e158-5846-4017-9d04-5e8d116ba4e6")
 		(property "Reference" "C417"
-			(at 129.54 144.7799 90)
+			(at 130.81 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7774,7 +7519,7 @@
 			)
 		)
 		(property "Value" "2.2uF 100V"
-			(at 129.54 147.3199 90)
+			(at 130.81 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7784,8 +7529,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 119.38 146.05 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 127 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7795,8 +7540,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 116.84 146.05 0)
+		(property "Datasheet" ""
+			(at 127 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +7552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 146.05 0)
+			(at 127 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,8 +7562,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 114.3 146.05 0)
+		(property "Manufacturer" ""
+			(at 127 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7828,8 +7573,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 111.76 146.05 0)
+		(property "MPN" ""
+			(at 127 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7839,8 +7584,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 109.22 146.05 0)
+		(property "LCSC Part" "C76686"
+			(at 127 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7945,8 +7690,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 212.09 156.21 270)
+		(lib_id "Device:C")
+		(at 212.09 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7957,7 +7702,7 @@
 		(fields_autoplaced yes)
 		(uuid "98377b3f-57b7-4367-b02a-6fcc752fe7d0")
 		(property "Reference" "C422"
-			(at 214.63 154.9399 90)
+			(at 215.9 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7968,7 +7713,7 @@
 			)
 		)
 		(property "Value" "47uF 10V"
-			(at 214.63 157.4799 90)
+			(at 215.9 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7978,8 +7723,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 204.47 156.21 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 212.09 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7989,8 +7734,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 201.93 156.21 0)
+		(property "Datasheet" ""
+			(at 212.09 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8001,7 +7746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 156.21 0)
+			(at 212.09 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8011,8 +7756,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 199.39 156.21 0)
+		(property "Manufacturer" ""
+			(at 212.09 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8022,8 +7767,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 196.85 156.21 0)
+		(property "MPN" ""
+			(at 212.09 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8033,8 +7778,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 194.31 156.21 0)
+		(property "LCSC Part" "C96123"
+			(at 212.09 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8272,7 +8017,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 163.83 0)
+		(at 186.69 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8283,7 +8028,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5042967-5af2-4b36-993f-6a1b064ee08c")
 		(property "Reference" "#PWR0325"
-			(at 186.69 170.18 0)
+			(at 186.69 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8294,7 +8039,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 168.91 0)
+			(at 186.69 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8304,7 +8049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 163.83 0)
+			(at 186.69 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8315,7 +8060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 163.83 0)
+			(at 186.69 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8326,7 +8071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 163.83 0)
+			(at 186.69 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8349,8 +8094,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 147.32 146.05 270)
+		(lib_id "Device:C")
+		(at 147.32 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8361,7 +8106,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7a54171-aa99-4ef6-a557-bbf268348e7e")
 		(property "Reference" "C419"
-			(at 149.86 144.7799 90)
+			(at 151.13 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8372,7 +8117,7 @@
 			)
 		)
 		(property "Value" "2.2uF 100V"
-			(at 149.86 147.3199 90)
+			(at 151.13 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8382,8 +8127,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 139.7 146.05 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 147.32 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8393,8 +8138,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 137.16 146.05 0)
+		(property "Datasheet" ""
+			(at 147.32 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8405,7 +8150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 146.05 0)
+			(at 147.32 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8415,8 +8160,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 134.62 146.05 0)
+		(property "Manufacturer" ""
+			(at 147.32 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8426,8 +8171,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 132.08 146.05 0)
+		(property "MPN" ""
+			(at 147.32 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8437,8 +8182,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 129.54 146.05 0)
+		(property "LCSC Part" "C76686"
+			(at 147.32 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8464,8 +8209,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 116.84 146.05 270)
+		(lib_id "Device:C")
+		(at 116.84 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8475,7 +8220,7 @@
 		(dnp no)
 		(uuid "aa2308f8-2dea-4083-9129-05b6f13c2d1e")
 		(property "Reference" "C416"
-			(at 119.38 144.7799 90)
+			(at 115.5699 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8486,7 +8231,7 @@
 			)
 		)
 		(property "Value" "2.2uF 100V"
-			(at 119.38 147.3199 90)
+			(at 118.1099 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8496,8 +8241,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 109.22 146.05 0)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 116.84 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8507,8 +8252,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 106.68 146.05 0)
+		(property "Datasheet" ""
+			(at 116.84 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8519,7 +8264,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 146.05 0)
+			(at 116.84 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8529,8 +8274,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 104.14 146.05 0)
+		(property "Manufacturer" ""
+			(at 116.84 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8540,8 +8285,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 101.6 146.05 0)
+		(property "MPN" ""
+			(at 116.84 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8551,8 +8296,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 99.06 146.05 0)
+		(property "LCSC Part" "C76686"
+			(at 116.84 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9237,8 +8982,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 237.49 156.21 270)
+		(lib_id "Device:C")
+		(at 237.49 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9249,7 +8994,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2b27bd8-afc7-47f1-8e8d-3096260902af")
 		(property "Reference" "C424"
-			(at 240.03 154.9399 90)
+			(at 241.3 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9260,7 +9005,7 @@
 			)
 		)
 		(property "Value" "47uF 10V"
-			(at 240.03 157.4799 90)
+			(at 241.3 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9270,8 +9015,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 229.87 156.21 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 237.49 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9281,8 +9026,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 227.33 156.21 0)
+		(property "Datasheet" ""
+			(at 237.49 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9293,7 +9038,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 156.21 0)
+			(at 237.49 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9303,8 +9048,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 224.79 156.21 0)
+		(property "Manufacturer" ""
+			(at 237.49 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9314,8 +9059,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 222.25 156.21 0)
+		(property "MPN" ""
+			(at 237.49 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9325,8 +9070,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 219.71 156.21 0)
+		(property "LCSC Part" "C96123"
+			(at 237.49 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9748,8 +9493,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 250.19 156.21 270)
+		(lib_id "Device:C")
+		(at 250.19 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9760,7 +9505,7 @@
 		(fields_autoplaced yes)
 		(uuid "d83b3183-9b05-4297-8d57-fa955fdb96c4")
 		(property "Reference" "C425"
-			(at 252.73 154.9399 90)
+			(at 254 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9771,7 +9516,7 @@
 			)
 		)
 		(property "Value" "47uF 10V"
-			(at 252.73 157.4799 90)
+			(at 254 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9781,8 +9526,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 242.57 156.21 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 250.19 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9792,8 +9537,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 240.03 156.21 0)
+		(property "Datasheet" ""
+			(at 250.19 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9804,7 +9549,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 156.21 0)
+			(at 250.19 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,8 +9559,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 237.49 156.21 0)
+		(property "Manufacturer" ""
+			(at 250.19 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9825,8 +9570,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 234.95 156.21 0)
+		(property "MPN" ""
+			(at 250.19 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9836,8 +9581,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 232.41 156.21 0)
+		(property "LCSC Part" "C96123"
+			(at 250.19 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10035,7 +9780,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 153.67 0)
+		(at 116.84 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10046,7 +9791,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3208e80-74e9-49bc-80d1-eedbda306098")
 		(property "Reference" "#PWR0318"
-			(at 116.84 160.02 0)
+			(at 116.84 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10057,7 +9802,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 158.75 0)
+			(at 116.84 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10067,7 +9812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 153.67 0)
+			(at 116.84 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10078,7 +9823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 153.67 0)
+			(at 116.84 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10089,7 +9834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 153.67 0)
+			(at 116.84 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10911,8 +10656,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 186.69 156.21 270)
+		(lib_id "Device:C")
+		(at 186.69 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10923,7 +10668,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff56e28b-73f5-4740-84cd-4d5a2edeb350")
 		(property "Reference" "C420"
-			(at 189.23 154.9399 90)
+			(at 190.5 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10934,7 +10679,7 @@
 			)
 		)
 		(property "Value" "47uF 10V"
-			(at 189.23 157.4799 90)
+			(at 190.5 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10944,8 +10689,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 179.07 156.21 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 186.69 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10955,8 +10700,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 176.53 156.21 0)
+		(property "Datasheet" ""
+			(at 186.69 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10967,7 +10712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 156.21 0)
+			(at 186.69 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10977,8 +10722,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 173.99 156.21 0)
+		(property "Manufacturer" ""
+			(at 186.69 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10988,8 +10733,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 171.45 156.21 0)
+		(property "MPN" ""
+			(at 186.69 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10999,8 +10744,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 168.91 156.21 0)
+		(property "LCSC Part" "C96123"
+			(at 186.69 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11026,8 +10771,8 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RVE470UF35V167RV084")
-		(at 199.39 156.21 270)
+		(lib_id "Device:C")
+		(at 199.39 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11038,7 +10783,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffd8c6df-94d7-4a2e-bf3e-f74b581877eb")
 		(property "Reference" "C421"
-			(at 201.93 154.9399 90)
+			(at 203.2 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11049,7 +10794,7 @@
 			)
 		)
 		(property "Value" "47uF 10V"
-			(at 201.93 157.4799 90)
+			(at 203.2 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11059,8 +10804,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
-			(at 191.77 156.21 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 199.39 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11070,8 +10815,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5155332.pdf"
-			(at 189.23 156.21 0)
+		(property "Datasheet" ""
+			(at 199.39 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11082,7 +10827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 156.21 0)
+			(at 199.39 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11092,8 +10837,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 186.69 156.21 0)
+		(property "Manufacturer" ""
+			(at 199.39 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11103,8 +10848,8 @@
 				)
 			)
 		)
-		(property "MPN" "RVE470UF35V167RV084"
-			(at 184.15 156.21 0)
+		(property "MPN" ""
+			(at 199.39 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11114,8 +10859,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5155332"
-			(at 181.61 156.21 0)
+		(property "LCSC Part" "C96123"
+			(at 199.39 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
