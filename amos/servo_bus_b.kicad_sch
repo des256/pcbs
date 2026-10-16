@@ -4545,12 +4545,6 @@
 		(uuid "136795e4-52e2-4597-963b-f7bcf610521a")
 	)
 	(junction
-		(at 189.23 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14761fa8-a927-4d11-b996-2044dd43aee7")
-	)
-	(junction
 		(at 114.3 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5869,16 +5863,6 @@
 			(type default)
 		)
 		(uuid "c6b39dc7-1abe-49a8-822c-39bdf10b8604")
-	)
-	(wire
-		(pts
-			(xy 189.23 73.66) (xy 191.77 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c838870f-1a3f-4ff7-ae17-dc4edadc1d68")
 	)
 	(wire
 		(pts
@@ -10927,85 +10911,6 @@
 			(project "amos"
 				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/68a8d8f7-216d-447e-9c2f-9eafe0ecde23"
 					(reference "#PWR0168")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 191.77 73.66 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca66fece-6a04-462b-b8ce-d812302da59b")
-		(property "Reference" "TP1001"
-			(at 196.85 72.3899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SHDN"
-			(at 196.85 74.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 191.77 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 191.77 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5bf6f996-376a-4e7c-89bf-7b17a24b1a1f")
-		)
-		(instances
-			(project "amos"
-				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/68a8d8f7-216d-447e-9c2f-9eafe0ecde23"
-					(reference "TP1001")
 					(unit 1)
 				)
 			)

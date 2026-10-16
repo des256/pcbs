@@ -4527,12 +4527,6 @@
 		(uuid "2660bdda-3882-4160-bfc4-751573dff483")
 	)
 	(junction
-		(at 189.23 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30c9210a-1353-4231-80e1-be4248fb61d7")
-	)
-	(junction
 		(at 82.55 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4859,16 +4853,6 @@
 			(type default)
 		)
 		(uuid "141c4658-fbd2-4fa9-a8b4-0f0f54d3cfb7")
-	)
-	(wire
-		(pts
-			(xy 189.23 73.66) (xy 191.77 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "143d1041-f5d8-4230-b74c-600dcecbf8de")
 	)
 	(wire
 		(pts
@@ -10732,85 +10716,6 @@
 			(project "amos"
 				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/5330d21c-6888-49e1-8bcd-3312d6491dde"
 					(reference "U904")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 191.77 73.66 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc78e384-2c57-4ced-9c95-bffb5652e983")
-		(property "Reference" "TP901"
-			(at 196.85 72.3899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SHDN"
-			(at 196.85 74.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 191.77 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 191.77 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88865ca8-c866-40bf-8054-d7bddc32886d")
-		)
-		(instances
-			(project "amos"
-				(path "/049ed167-7f00-4e6e-b407-0e51a9193256/5330d21c-6888-49e1-8bcd-3312d6491dde"
-					(reference "TP901")
 					(unit 1)
 				)
 			)
