@@ -5169,6 +5169,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 185.42 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "228410f5-32f7-49ea-b4dd-a7cdd526e6bc")
 		)
@@ -5398,6 +5409,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 177.8 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6552,6 +6574,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C26083"
+			(at 229.87 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "072e83ef-1b1f-4e16-8535-17b8f7f77233")
 		)
@@ -6717,6 +6750,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 170.18 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8186,6 +8230,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 198.12 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f98bb057-2fb0-48ee-b915-e8725e8d1608")
 		)
@@ -8414,6 +8469,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 182.88 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96273"
 			(at 182.88 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9055,6 +9121,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 222.25 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "08764dfb-0822-4454-b244-31954baffde9")
 		)
@@ -9170,7 +9247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BLM18PG221SN1D"
+		(property "Value" "BLM18PG121SN1D"
 			(at 76.581 157.353 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9214,7 +9291,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C80165"
+		(property "LCSC" "C14709"
 			(at 80.01 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10320,9 +10397,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da9ed647-df85-4430-bb59-b2e25e0689c7")
@@ -10539,6 +10616,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 204.47 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C26989"
 			(at 204.47 82.55 0)
 			(hide yes)
 			(show_name no)

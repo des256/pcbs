@@ -2882,9 +2882,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "247deecb-2a24-4439-9d9c-31c5eef0600f")
@@ -3099,7 +3099,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF 100V"
+		(property "Value" "100nF 50V"
 			(at 194.31 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3133,6 +3133,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 190.5 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 190.5 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3345,6 +3356,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 180.34 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5716846f-2a67-43b9-b90d-a59c8f4af206")
 		)
@@ -3515,6 +3537,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2297"
+			(at 180.34 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "feea08b4-a1be-4c34-b50a-953f86f41bba")
 		)
@@ -3663,6 +3696,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 123.19 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 123.19 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3832,6 +3876,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C13585"
+			(at 193.04 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "227b57d7-9703-4c94-a822-b0cf255254dc")
 		)
@@ -3901,6 +3956,17 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 186.69 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3157092"
 			(at 186.69 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4544,6 +4610,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 165.1 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 165.1 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5760,6 +5837,17 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 110.49 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C187551"
 			(at 110.49 78.74 0)
 			(hide yes)
 			(show_name no)

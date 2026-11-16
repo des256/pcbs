@@ -1,0 +1,2970 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "049ed167-7f00-4e6e-b407-0e51a9193256")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 29.21 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65316b2f-2580-4246-899e-3c4c471396a7")
+	)
+	(wire
+		(pts
+			(xy 55.88 76.2) (xy 55.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e71c4a-e287-421f-aba1-b85984f93d15")
+	)
+	(wire
+		(pts
+			(xy 152.4 128.27) (xy 190.5 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09407d94-5414-48bf-85e1-1b528ec44fd2")
+	)
+	(wire
+		(pts
+			(xy 152.4 161.29) (xy 190.5 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bebb21a-0a84-4e42-a0b2-adc03d301f7e")
+	)
+	(wire
+		(pts
+			(xy 26.67 76.2) (xy 26.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0caa7954-a6f8-4fc3-835c-44d3dfa24695")
+	)
+	(wire
+		(pts
+			(xy 73.66 76.2) (xy 73.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178b576c-9f4a-4145-84ad-603fb3a1e5e1")
+	)
+	(wire
+		(pts
+			(xy 87.63 76.2) (xy 87.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2afde8-8a5c-4322-810d-e7684bf4a1fb")
+	)
+	(wire
+		(pts
+			(xy 152.4 144.78) (xy 190.5 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f82bccf-80ca-4e68-9a22-d353db6e8250")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 190.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c7235e-e98a-4e00-be2c-c2a69d9931e4")
+	)
+	(wire
+		(pts
+			(xy 60.96 76.2) (xy 60.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232ed55e-3c87-474b-8f77-e1dc413144a6")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234de2ce-cb26-4d52-b805-004012c26d2d")
+	)
+	(wire
+		(pts
+			(xy 29.464 76.2) (xy 29.21 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283c4092-d429-4463-a4a1-6f1c76781636")
+	)
+	(wire
+		(pts
+			(xy 127 53.34) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29de5031-3ca9-45d6-90d2-1f5c2dee1387")
+	)
+	(wire
+		(pts
+			(xy 92.71 76.2) (xy 92.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30681c22-5b3e-46ae-870e-9c2fc8ae7576")
+	)
+	(wire
+		(pts
+			(xy 152.4 166.37) (xy 190.5 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e15c49-2d4d-4335-bb11-6cf5c2a1d13b")
+	)
+	(wire
+		(pts
+			(xy 29.21 76.2) (xy 29.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364ecbd1-5af4-4b65-b696-2f4fc5180a56")
+	)
+	(wire
+		(pts
+			(xy 34.29 76.2) (xy 34.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e18e4e-4c9b-44ac-9a8b-21fa5e0cc8b9")
+	)
+	(wire
+		(pts
+			(xy 152.4 163.83) (xy 190.5 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3863aa2a-f550-415d-a53b-6a594459e5da")
+	)
+	(wire
+		(pts
+			(xy 100.33 76.2) (xy 100.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a35722-a2ef-4c01-b1dc-858a6778a79a")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 58.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c302006-e85e-43a6-8d41-c43b3cfd87a5")
+	)
+	(wire
+		(pts
+			(xy 127 60.96) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da06565-d515-47bc-bd2e-c9234f20b16d")
+	)
+	(wire
+		(pts
+			(xy 95.25 76.2) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502be007-cb77-4fd4-ada1-0a6147647124")
+	)
+	(wire
+		(pts
+			(xy 90.17 76.2) (xy 90.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563df675-427e-426d-89b7-e5438153ba21")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 66.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7679cc-72f2-4139-8ceb-6cafa217d4be")
+	)
+	(wire
+		(pts
+			(xy 127 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecfac21-03b4-45b5-a90b-fcc6b982d8dc")
+	)
+	(wire
+		(pts
+			(xy 41.91 76.2) (xy 41.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63bdc23e-e657-4c82-80a0-4e3aedbf4b82")
+	)
+	(wire
+		(pts
+			(xy 36.83 76.2) (xy 36.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cff3a1-b513-4968-bde7-a4d9c115b103")
+	)
+	(wire
+		(pts
+			(xy 152.4 106.68) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81b034e-109d-49b4-bc96-b4a7d5f617de")
+	)
+	(wire
+		(pts
+			(xy 102.87 76.2) (xy 102.87 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c9ab40-b990-431f-a8a0-e40695ac3f76")
+	)
+	(wire
+		(pts
+			(xy 152.4 142.24) (xy 190.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0065e2e-ccd4-45de-b2e0-4a01f7ecd7ea")
+	)
+	(wire
+		(pts
+			(xy 127 55.88) (xy 165.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1528d62-8590-4cf3-8afc-e44e20bf67b8")
+	)
+	(wire
+		(pts
+			(xy 152.4 147.32) (xy 190.5 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83d93a1-26bb-499f-ba21-fac562d50f07")
+	)
+	(wire
+		(pts
+			(xy 152.4 125.73) (xy 190.5 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a9684d-b908-4bb5-856b-653038804c94")
+	)
+	(wire
+		(pts
+			(xy 119.38 76.2) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6cecf7-6bc0-44e9-a4fd-8fc9a1404929")
+	)
+	(wire
+		(pts
+			(xy 68.58 76.2) (xy 68.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7625634-fff2-4c8d-94bf-2bfb800460d3")
+	)
+	(wire
+		(pts
+			(xy 31.75 76.2) (xy 31.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca86ce04-134d-419d-8325-62e15c2c84c9")
+	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 71.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf61a30f-764c-45c5-96df-9525b9f69bfb")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa835d4-afd3-4471-a0ea-423e721cc4cc")
+	)
+	(wire
+		(pts
+			(xy 97.79 76.2) (xy 97.79 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4e7f81-f7bf-478b-8849-fd5634c261e6")
+	)
+	(wire
+		(pts
+			(xy 85.09 76.2) (xy 85.09 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e280e318-1474-4568-9763-189eb693b766")
+	)
+	(wire
+		(pts
+			(xy 127 58.42) (xy 165.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61629d0-6e6a-4668-910a-5730677e6105")
+	)
+	(wire
+		(pts
+			(xy 39.37 76.2) (xy 39.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcf3e18-cd4b-458f-9e43-dbe7d0eb16bd")
+	)
+	(wire
+		(pts
+			(xy 152.4 123.19) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee40cbbf-82e6-4fea-81bb-d1a6ca0a9525")
+	)
+	(wire
+		(pts
+			(xy 127 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b2a3e7-a99b-4757-9c64-e9a5aaeeeae6")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 190.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f0fe11-e96a-4576-a820-f5e3c0291622")
+	)
+	(wire
+		(pts
+			(xy 44.45 76.2) (xy 44.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a1fde7-18e8-411f-b754-93c7d6796d5b")
+	)
+	(wire
+		(pts
+			(xy 127 48.26) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc6cca9-d4b2-42a5-8395-739899d5e7e2")
+	)
+	(label "USBB_SSTX_N"
+		(at 71.12 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06037c1d-9fe3-40aa-8910-66c95cbfd8b7")
+	)
+	(label "USBA_DP"
+		(at 29.464 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06c722e9-0987-494b-8769-3fbc53a318fc")
+	)
+	(label "USBB_OVERCUR_N"
+		(at 60.96 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09b956a4-770a-4212-b7bd-b65a8b0b2a93")
+	)
+	(label "USB_VBUS"
+		(at 127 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a469b7e-3d00-4c33-8927-4d88c793b93f")
+	)
+	(label "USBA_SSTX_N"
+		(at 41.91 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c3831a9-228a-48ad-abbd-6d72d0ac598e")
+	)
+	(label "USBU_SSTX_P"
+		(at 165.1 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0cdf0c52-2259-4555-a420-39c886816cba")
+	)
+	(label "USBC_OVERCUR_N"
+		(at 90.17 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "117e611b-28a7-4901-b5ef-b7233c826b7b")
+	)
+	(label "USBA_DM"
+		(at 26.67 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "164f3c65-facd-4162-a6ef-a24784313a4b")
+	)
+	(label "USBU_DP"
+		(at 127 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16826283-6af3-4ef8-b253-eaf7300a343e")
+	)
+	(label "SERVOB_TXD"
+		(at 190.5 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a05378f-f037-4bed-987d-bb2d7600d850")
+	)
+	(label "SERVO_DM"
+		(at 119.38 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b5fecea-625b-488b-97c2-656570d7d06b")
+	)
+	(label "USBB_OVERCUR_N"
+		(at 60.96 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d67bf06-f640-40f0-87b7-3f1bba72a0a9")
+	)
+	(label "USBB_SSRX_N"
+		(at 66.04 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e7bfd3f-8fad-4fb5-b91f-52ff6cf5477a")
+	)
+	(label "SERVOD_TNOW"
+		(at 152.4 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "264488bd-82ee-408d-b1d7-3371336a6bd8")
+	)
+	(label "USBU_SSRX_M"
+		(at 165.1 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32bac238-3eaa-4b9e-be91-01df58e17b64")
+	)
+	(label "USBC_PWRCTL"
+		(at 92.71 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "332d3fb9-859c-4f27-b97b-5f0318fe77bf")
+	)
+	(label "USBC_DP"
+		(at 87.63 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34e13502-5c1c-4517-a839-5411dbc10df6")
+	)
+	(label "USBU_SSRX_P"
+		(at 127 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38061246-a6e6-4baa-95da-c97bf1fdb763")
+	)
+	(label "USBA_DP"
+		(at 29.21 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39539e20-37f8-4775-a00e-e4e8c1bd58d2")
+	)
+	(label "USBA_SSRX_P"
+		(at 39.37 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "397b4e90-b70c-43ac-ba48-cbf536211132")
+	)
+	(label "USBC_SSTX_P"
+		(at 102.87 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39ed30ed-2c18-41fb-a8b8-2cba718b2950")
+	)
+	(label "USBA_OVERCUR_N"
+		(at 31.75 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c02ccb8-05d1-4341-9bf9-20fed80b38b1")
+	)
+	(label "SERVOA_RXD"
+		(at 152.4 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d1328f1-6759-4bb8-b9e3-5a2d6d43b174")
+	)
+	(label "USBB_SSRX_N"
+		(at 66.04 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40513095-d672-45fe-a85e-bf2f6736d538")
+	)
+	(label "USBC_SSRX_N"
+		(at 95.25 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "410e787e-5a49-4353-bc76-f7056d0d563b")
+	)
+	(label "SERVO_DP"
+		(at 116.84 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49cc18de-e465-4082-a0e0-63a4a12fe39c")
+	)
+	(label "USBA_SSTX_N"
+		(at 41.91 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49fbd0c9-7dc6-417e-9cfd-deb346654190")
+	)
+	(label "SERVO_DP"
+		(at 116.84 101.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ac5f9ad-b276-4de7-afb0-b6dd2a77f201")
+	)
+	(label "USBC_SSTX_N"
+		(at 100.33 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50bba177-2c8f-480f-9b7b-233247e9cd71")
+	)
+	(label "SERVOD_TXD"
+		(at 190.5 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51b13b90-9547-4e79-ac11-b722a3d3588c")
+	)
+	(label "USBA_DM"
+		(at 26.67 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54dcbad4-dd79-46d2-b340-9d12ffc10e52")
+	)
+	(label "USBC_DM"
+		(at 85.09 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "563468cf-03fc-46e0-95ac-4512d852843c")
+	)
+	(label "SERVOA_TNOW"
+		(at 152.4 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61838b09-895f-4272-bac8-503b1781347a")
+	)
+	(label "USBB_SSTX_N"
+		(at 71.12 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6af79ed9-9194-49e9-a2b4-d2c55cd82478")
+	)
+	(label "SERVOA_TXD"
+		(at 152.4 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cd976e3-d85b-465c-8132-78abd4c40611")
+	)
+	(label "USBB_DP"
+		(at 58.42 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75411d36-e41d-4714-9b31-90fecb1c1a40")
+	)
+	(label "USBC_PWRCTL"
+		(at 92.71 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75dd20b9-fd19-4099-a4a0-1b4b6db0ca7a")
+	)
+	(label "USBB_SSTX_P"
+		(at 73.66 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "791a8d93-69f7-4646-8b9d-28ff8e7dfb8d")
+	)
+	(label "SERVOC_RXD"
+		(at 152.4 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e129510-b02d-442a-85ff-f8c94effcdf3")
+	)
+	(label "USBA_SSTX_P"
+		(at 44.45 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "839d607d-e3e8-4f5d-9e7e-35fa78d2de3c")
+	)
+	(label "USBU_SSTX_M"
+		(at 127 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85097787-6caa-4310-b957-e55bc8ea589b")
+	)
+	(label "USBU_SSRX_M"
+		(at 127 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "868db1e4-b5d3-4317-bf54-c82806de4e19")
+	)
+	(label "SERVOB_RXD"
+		(at 152.4 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "870797fe-8451-4e4f-97ff-cebf86c36771")
+	)
+	(label "SERVOC_TXD"
+		(at 152.4 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88502f7e-03ed-4d01-829b-5f4c659adf79")
+	)
+	(label "USBC_SSTX_N"
+		(at 100.33 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a936984-029e-442f-a1b2-1b5de734f1bf")
+	)
+	(label "SERVOA_TXD"
+		(at 190.5 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e8b3531-0ee9-4c05-b0fe-ff7c0a0cc87d")
+	)
+	(label "USBU_DM"
+		(at 127 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "911562c1-2a70-4a43-b9cd-7471cbaf0db2")
+	)
+	(label "USBC_DM"
+		(at 85.09 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "926b1db7-55c8-4b98-8686-30f8344562cd")
+	)
+	(label "SERVO_DM"
+		(at 119.38 101.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95079a1f-d546-4c68-a3a0-53eb0e5a9203")
+	)
+	(label "SERVOD_TXD"
+		(at 152.4 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96328b94-bbc6-4b01-a337-1b2d21a10ecc")
+	)
+	(label "SERVOC_TNOW"
+		(at 152.4 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b244157-ec2d-4d47-ac06-69b2343d693a")
+	)
+	(label "SERVOB_TNOW"
+		(at 190.5 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d6a4212-6109-476a-8696-2c6efcc91e37")
+	)
+	(label "SERVOC_TXD"
+		(at 190.5 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fbf7cf8-a56f-45b4-abea-d952a3f5d91d")
+	)
+	(label "USBC_SSRX_P"
+		(at 97.79 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a15261c9-11e6-4ffe-8f79-a0b797b6e98d")
+	)
+	(label "SERVOA_RXD"
+		(at 190.5 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a20207ec-558e-4b4c-9238-8d1f494ac1cf")
+	)
+	(label "USBB_SSRX_P"
+		(at 68.58 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2a02b02-1706-48da-91e9-dd3238c76847")
+	)
+	(label "SERVOA_TNOW"
+		(at 190.5 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4a3b025-867f-4e0c-8215-0f8aaca38035")
+	)
+	(label "USBB_PWRCTL"
+		(at 63.5 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a509bafe-96a1-49a2-9b25-e5a7f500aa9c")
+	)
+	(label "SERVOB_RXD"
+		(at 190.5 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa26befd-3983-4c17-a512-105551acd850")
+	)
+	(label "USBB_DM"
+		(at 55.88 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac391c6b-d4e7-469a-95f8-b3b150fb6bc5")
+	)
+	(label "USBB_DM"
+		(at 55.88 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "acbaa561-b49d-4d14-bd7b-f24026c261cc")
+	)
+	(label "USBU_DP"
+		(at 165.1 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad3e10a7-6a16-4179-8123-43c7b050e5d4")
+	)
+	(label "USBA_SSRX_P"
+		(at 39.37 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b611bddd-a465-4890-86b1-a6746b9ca330")
+	)
+	(label "USBB_SSRX_P"
+		(at 68.58 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b66f9803-e7f9-42b5-bba5-a861eeed4c2c")
+	)
+	(label "SERVOD_TNOW"
+		(at 190.5 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba34a617-4c77-471a-b7e7-1d074f430aaa")
+	)
+	(label "USBU_SSRX_P"
+		(at 165.1 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bac8748a-bbec-4d81-9d52-4082d5a7babe")
+	)
+	(label "USBA_SSRX_N"
+		(at 36.83 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd0b14c9-be37-4a3c-b777-f77164093009")
+	)
+	(label "SERVOD_RXD"
+		(at 152.4 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c00eab61-20b4-4aa4-a837-c54cc8565ff0")
+	)
+	(label "SERVOC_RXD"
+		(at 190.5 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c045090f-8528-43d2-a39f-569469efba5f")
+	)
+	(label "USBB_DP"
+		(at 58.42 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0b11d80-6a54-4ea7-bb98-c6e5bfc92c2f")
+	)
+	(label "USBA_PWRCTL"
+		(at 34.29 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1792b25-5e24-4ad9-ada6-a26177c69634")
+	)
+	(label "USBC_SSTX_P"
+		(at 102.87 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c25bdfa7-c93d-4b98-b629-b5dcdacd6d52")
+	)
+	(label "USBC_DP"
+		(at 87.63 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5f2e4cf-75f7-4bc4-a5b4-f14df288fa28")
+	)
+	(label "SERVOC_TNOW"
+		(at 190.5 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc0810ab-d20e-4526-8006-0ec36966ecf4")
+	)
+	(label "SERVOB_TXD"
+		(at 152.4 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce59a10d-39a6-4ec6-92e8-59942c426ae6")
+	)
+	(label "USBA_OVERCUR_N"
+		(at 31.75 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf7d1c9e-9b0c-479f-862a-3836bab9009a")
+	)
+	(label "USBA_SSTX_P"
+		(at 44.45 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2327240-823b-4475-b19e-488fac311522")
+	)
+	(label "USBA_SSRX_N"
+		(at 36.83 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "daa44462-7f66-4821-9fd5-3414590d7a2c")
+	)
+	(label "USBB_PWRCTL"
+		(at 63.5 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db1a820a-5e4c-4873-a24f-efc92b83cbb5")
+	)
+	(label "USBU_SSTX_P"
+		(at 127 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd63873d-3bc6-4518-b6c5-76ed60c3c088")
+	)
+	(label "USBB_SSTX_P"
+		(at 73.66 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df40966a-5d4a-48a6-a480-50d68e5297d1")
+	)
+	(label "SERVOB_TNOW"
+		(at 152.4 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0922627-bb72-4b17-8545-db32d93ae204")
+	)
+	(label "USBU_SSTX_M"
+		(at 165.1 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0ab8816-291b-42c2-8a6a-2ba5b77318d6")
+	)
+	(label "USBC_OVERCUR_N"
+		(at 90.17 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6676df1-ddbb-43e5-9814-a9b37ff752c7")
+	)
+	(label "SERVOD_RXD"
+		(at 190.5 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea97057c-10ec-469c-96e5-7e9bca2d5453")
+	)
+	(label "USB_VBUS"
+		(at 165.1 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed02b970-6e57-4a51-a50a-dec99c2d2f0b")
+	)
+	(label "USBC_SSRX_P"
+		(at 97.79 76.2 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0bb2703-82a5-48ad-9950-13d104d608d5")
+	)
+	(label "USBU_DM"
+		(at 165.1 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f99078df-4960-425e-9961-c9c74814ad1f")
+	)
+	(label "USBC_SSRX_N"
+		(at 95.25 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa2670ea-41d3-4ccf-8bb4-8a1d22a5f6bc")
+	)
+	(label "USBA_PWRCTL"
+		(at 34.29 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbe38647-1cd7-4a5b-a2b8-8de12381c784")
+	)
+	(sheet
+		(at 190.5 158.75)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2098a820-ca7f-4e00-b358-f264b85b0a48")
+		(property "Sheetname" "Servo Bus D"
+			(at 190.5 158.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_bus_d.kicad_sch"
+			(at 190.5 169.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SERVOD_TXD" input
+			(at 190.5 161.29 180)
+			(uuid "057d5177-05ef-4484-9ce1-3ae7ef0b25ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVOD_RXD" output
+			(at 190.5 163.83 180)
+			(uuid "ad084046-f2e2-43a8-8b7c-5fe957def9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVOD_TNOW" input
+			(at 190.5 166.37 180)
+			(uuid "65eeda70-a0f9-4522-8ccb-a9db9d6e0e4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 45.72)
+		(size 19.05 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "40c6a8fa-6087-4f71-a9ad-5665e83caef4")
+		(property "Sheetname" "USB Upstream"
+			(at 165.1 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_upstream.kicad_sch"
+			(at 165.1 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USBU_SSRX_P" output
+			(at 165.1 48.26 180)
+			(uuid "5af210d0-a5da-4623-b342-150e951a69a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBU_SSTX_P" input
+			(at 165.1 53.34 180)
+			(uuid "f386539e-d703-4bee-81e3-be0571256732")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBU_SSRX_M" output
+			(at 165.1 50.8 180)
+			(uuid "4fbe3ad7-7fc2-4fca-be5b-da09559d1331")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBU_DM" bidirectional
+			(at 165.1 60.96 180)
+			(uuid "3d8c2a68-f119-449f-b840-d21731d1cb86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBU_DP" bidirectional
+			(at 165.1 58.42 180)
+			(uuid "e32fcb29-ffd9-47dd-8bd7-c28811e3f640")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBU_SSTX_M" input
+			(at 165.1 55.88 180)
+			(uuid "d36d55e5-e90b-436c-8262-ede60adfebac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_VBUS" output
+			(at 165.1 63.5 180)
+			(uuid "ff991f90-23e5-43e1-aea7-420c1885f33f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 25.4)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "414af62e-4a17-4f6e-8bb6-00fc744c6b19")
+		(property "Sheetname" "1V1 and 3V3 Buck"
+			(at 190.5 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_1v1_3v3.kicad_sch"
+			(at 190.5 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 101.6)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5330d21c-6888-49e1-8bcd-3312d6491dde")
+		(property "Sheetname" "Servo Bus A"
+			(at 190.5 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_bus_a.kicad_sch"
+			(at 190.5 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SERVOA_TXD" input
+			(at 190.5 104.14 180)
+			(uuid "966b2c2d-2c72-4b97-9004-57048f514334")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVOA_RXD" output
+			(at 190.5 106.68 180)
+			(uuid "16a3139f-eb15-4145-8660-97a0810393cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVOA_TNOW" input
+			(at 190.5 109.22 180)
+			(uuid "fa39e854-b96c-4c7d-8308-3b827ee9bcc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "56543776-b115-482b-bfe7-6ba4e5955a1e")
+		(property "Sheetname" "Main Power"
+			(at 25.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main_power.kicad_sch"
+			(at 25.4 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 25.4)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "569f1273-c4c9-4c2d-aff2-f69186f3b6d8")
+		(property "Sheetname" "5V Servo Buck"
+			(at 114.3 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_servo_5v.kicad_sch"
+			(at 114.3 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 114.3)
+		(size 21.59 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "60c5dfc5-26d3-447b-a49c-51a71448b6b2")
+		(property "Sheetname" "USB Port C"
+			(at 83.1084 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_port_c.kicad_sch"
+			(at 105.9946 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USBC_DM" bidirectional
+			(at 85.09 114.3 90)
+			(uuid "266fddb0-4b30-490e-a627-0f98939ecdae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBC_DP" bidirectional
+			(at 87.63 114.3 90)
+			(uuid "a2c9a55f-0297-477b-b48e-5b9772e94651")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBC_OVERCUR_N" output
+			(at 90.17 114.3 90)
+			(uuid "bef4c0f7-7195-4e93-a329-4d160a1b2366")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBC_PWRCTL" input
+			(at 92.71 114.3 90)
+			(uuid "7945c2f9-089a-42f8-9365-2009a6ae2847")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBC_SSRX_N" output
+			(at 95.25 114.3 90)
+			(uuid "1b8da8ff-3c07-4350-ba46-3d2274e32476")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBC_SSRX_P" output
+			(at 97.79 114.3 90)
+			(uuid "98aeefc5-1c30-4797-b9c0-cea1ff923a05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBC_SSTX_N" input
+			(at 100.33 114.3 90)
+			(uuid "1c25166b-6cd2-475f-b242-c0be965adcc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBC_SSTX_P" input
+			(at 102.87 114.3 90)
+			(uuid "0609ac90-799a-4d34-adf2-d5631dd0ff6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 120.65)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "68a8d8f7-216d-447e-9c2f-9eafe0ecde23")
+		(property "Sheetname" "Servo Bus B"
+			(at 190.5 119.9384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_bus_b.kicad_sch"
+			(at 190.5 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SERVOB_TXD" input
+			(at 190.5 123.19 180)
+			(uuid "33651e28-9ca4-4997-b924-104e875e6d58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVOB_RXD" output
+			(at 190.5 125.73 180)
+			(uuid "7f3d8e5e-6dde-49bf-9cae-d1b1f2e1b85a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVOB_TNOW" input
+			(at 190.5 128.27 180)
+			(uuid "2a6bf73b-d0d3-43a1-939d-38bf1d75496c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 114.3)
+		(size 21.59 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "705281af-b082-4a65-9daa-e15e58f25ad5")
+		(property "Sheetname" "USB Port A"
+			(at 24.6884 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_port_a.kicad_sch"
+			(at 47.5746 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USBA_DM" bidirectional
+			(at 26.67 114.3 90)
+			(uuid "b2070d6c-95eb-4572-8b8c-e9865a8c0dfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBA_DP" bidirectional
+			(at 29.21 114.3 90)
+			(uuid "6d51af3a-685a-4ba9-ad0a-70de98cdbe87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBA_OVERCUR_N" output
+			(at 31.75 114.3 90)
+			(uuid "d9665a3c-6f95-48fa-ba79-14716392d78c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBA_PWRCTL" input
+			(at 34.29 114.3 90)
+			(uuid "c9229e73-ac9b-4bad-8d57-e6280b76414a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBA_SSRX_N" output
+			(at 36.83 114.3 90)
+			(uuid "a1ea04db-28d4-4b41-ac5c-ef1833435a4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBA_SSRX_P" output
+			(at 39.37 114.3 90)
+			(uuid "5f2c4e11-6996-4ae5-b04d-fd80d9d3eb8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBA_SSTX_N" input
+			(at 41.91 114.3 90)
+			(uuid "4c98e094-e4b0-41f6-b089-84c0f29ba8fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBA_SSTX_P" input
+			(at 44.45 114.3 90)
+			(uuid "0adb6d0d-ade2-45e8-95d7-919ad2169768")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 114.3)
+		(size 21.59 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a35af9f7-924a-481a-a188-aaa80b658671")
+		(property "Sheetname" "USB Port B"
+			(at 53.8984 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_port_b.kicad_sch"
+			(at 76.7846 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USBB_DM" bidirectional
+			(at 55.88 114.3 90)
+			(uuid "f1350671-1d05-4515-97b2-633c2533f4f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBB_DP" bidirectional
+			(at 58.42 114.3 90)
+			(uuid "c0a46f4a-8fde-42c9-b19f-33c9acbb1d39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBB_OVERCUR_N" output
+			(at 60.96 114.3 90)
+			(uuid "5b792140-3249-49d1-b7ee-4f1e81614deb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBB_PWRCTL" input
+			(at 63.5 114.3 90)
+			(uuid "4e797f54-a831-4500-a299-bd4362612b92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBB_SSRX_N" output
+			(at 66.04 114.3 90)
+			(uuid "5ffcf32b-3264-4005-9fe3-7ef293512ed5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBB_SSRX_P" output
+			(at 68.58 114.3 90)
+			(uuid "dbd76681-060b-422a-98c0-afd8fed3ab40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBB_SSTX_N" input
+			(at 71.12 114.3 90)
+			(uuid "2f80ba9a-3b3c-48be-9fe3-a4f9da796792")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBB_SSTX_P" input
+			(at 73.66 114.3 90)
+			(uuid "5ff4ef0b-4d4b-4520-a5a6-4b3cc58708b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 25.4)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ab1c4862-f26c-48b1-b183-8bee700199c6")
+		(property "Sheetname" "5V USB Buck"
+			(at 152.4 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_usb_5v.kicad_sch"
+			(at 152.4 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 45.72)
+		(size 102.87 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b6eadc3a-ff18-4bd2-9cdd-289e8953ddd1")
+		(property "Sheetname" "USB Hub"
+			(at 24.13 45.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_hub.kicad_sch"
+			(at 24.13 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USBU_SSRX_P" input
+			(at 127 48.26 0)
+			(uuid "585d9abc-7b04-49b0-b872-0403263933b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBU_SSTX_P" output
+			(at 127 53.34 0)
+			(uuid "795748bb-b214-4a96-8372-539e239c7088")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBU_SSRX_M" input
+			(at 127 50.8 0)
+			(uuid "8a9804bb-4103-46ec-8883-174156fa2654")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBU_DM" bidirectional
+			(at 127 60.96 0)
+			(uuid "7fd0e3b8-57c4-4376-9135-1c54c8f1be97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBU_DP" bidirectional
+			(at 127 58.42 0)
+			(uuid "1fe32d39-8957-4f51-b346-45a89cd70e3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBU_SSTX_M" output
+			(at 127 55.88 0)
+			(uuid "a658f463-7cdc-43a9-a37b-8110fa9c2e80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO_DP" bidirectional
+			(at 116.84 76.2 270)
+			(uuid "e2e13854-bff2-415b-a6ff-36c737ced8e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO_DM" bidirectional
+			(at 119.38 76.2 270)
+			(uuid "d6489a59-4dfa-4714-9ff7-430f2736db01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBA_DM" bidirectional
+			(at 26.67 76.2 270)
+			(uuid "dfbb878f-ccf2-4738-985a-80449cd76321")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBA_DP" bidirectional
+			(at 29.21 76.2 270)
+			(uuid "b5d92ab0-ffad-4f2d-b86c-de71533449a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBA_OVERCUR_N" output
+			(at 31.75 76.2 270)
+			(uuid "1b505283-5e2b-4dd8-b6ef-25e6957754f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBA_PWRCTL" input
+			(at 34.29 76.2 270)
+			(uuid "31c0c29b-bba0-42c8-be7e-71a29b615f46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBA_SSRX_N" output
+			(at 36.83 76.2 270)
+			(uuid "9ef14fe2-6bc4-4219-90bd-3bfa42a0afc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBA_SSRX_P" output
+			(at 39.37 76.2 270)
+			(uuid "9ff94780-102f-4980-a5ba-84a2cc6152e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBA_SSTX_N" input
+			(at 41.91 76.2 270)
+			(uuid "0fd571f5-fc84-43df-a3c3-9bc5cf527db1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBA_SSTX_P" input
+			(at 44.45 76.2 270)
+			(uuid "0342b922-c23f-4611-affc-95f4d51a967e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBB_DM" bidirectional
+			(at 55.88 76.2 270)
+			(uuid "46292330-1c95-493b-9c2c-9d3455ff7a3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBB_DP" bidirectional
+			(at 58.42 76.2 270)
+			(uuid "16eec314-344c-4f0d-9e5a-0956a57f1ba9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBB_OVERCUR_N" output
+			(at 60.96 76.2 270)
+			(uuid "2416066d-475e-48c0-a137-22cdacfc4186")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBB_PWRCTL" input
+			(at 63.5 76.2 270)
+			(uuid "4386faa3-5bf7-4aa8-8082-093b13ae882d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBB_SSRX_N" output
+			(at 66.04 76.2 270)
+			(uuid "e1a45fa5-8218-480f-8123-29e5a6039959")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBB_SSRX_P" output
+			(at 68.58 76.2 270)
+			(uuid "92aaa909-378e-4527-b9f6-bb45d9c9fac1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBB_SSTX_N" input
+			(at 71.12 76.2 270)
+			(uuid "d7fc3ff3-b0cd-4a4b-945d-ec5fac587122")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBB_SSTX_P" input
+			(at 73.66 76.2 270)
+			(uuid "340d5300-3b79-4891-a2d5-ca45dcd9d688")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_DM" bidirectional
+			(at 85.09 76.2 270)
+			(uuid "6eac98fe-30bc-4948-bc90-54c70e709ac2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_DP" bidirectional
+			(at 87.63 76.2 270)
+			(uuid "5927357f-3d46-4432-a599-c15fbd696312")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_OVERCUR_N" output
+			(at 90.17 76.2 270)
+			(uuid "9aef5bff-0df3-4c78-be9b-0144ab68902f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_PWRCTL" input
+			(at 92.71 76.2 270)
+			(uuid "8e903e33-31ad-4de4-b4cf-be0634e124db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_SSRX_N" output
+			(at 95.25 76.2 270)
+			(uuid "9252f5d0-50a3-4f25-9107-53586e4f8b10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_SSRX_P" output
+			(at 97.79 76.2 270)
+			(uuid "29c0e859-dea8-4c0b-9ff0-ef41cba8feb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_SSTX_N" input
+			(at 100.33 76.2 270)
+			(uuid "b8b330b8-3b11-4cbd-9dd9-d6bbf626927b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_SSTX_P" input
+			(at 102.87 76.2 270)
+			(uuid "0db9e1ee-d887-4122-9f8f-cec373172266")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_VBUS" input
+			(at 127 63.5 0)
+			(uuid "06c1f86f-6f49-4f28-aa32-e9d708bfefc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 139.7)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b9468b49-6dd6-4316-ba30-77c73ca17b3b")
+		(property "Sheetname" "Servo Bus C"
+			(at 190.5 138.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servo_bus_c.kicad_sch"
+			(at 190.5 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SERVOC_TXD" input
+			(at 190.5 142.24 180)
+			(uuid "234b2f9d-2646-49ff-b2c1-f65ba6a8f8b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVOC_RXD" output
+			(at 190.5 144.78 180)
+			(uuid "8a8b76dc-d05e-4571-9c4f-966a29e824d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVOC_TNOW" input
+			(at 190.5 147.32 180)
+			(uuid "5135c21b-2a8c-4b98-b2f7-4dea5bb513d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d7f0cded-9581-422f-bcb0-11beb4cf16c7")
+		(property "Sheetname" "12V Servo Buck"
+			(at 76.2 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_servo_12v.kicad_sch"
+			(at 76.2 38.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 101.6)
+		(size 38.1 67.31)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e9b87337-70d7-4942-9119-023ef9a98330")
+		(property "Sheetname" "Servo Bus Controller"
+			(at 114.3 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ch344q.kicad_sch"
+			(at 114.3 169.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SERVOA_TXD" output
+			(at 152.4 104.14 0)
+			(uuid "ddacd0f7-68cf-4436-b87f-5a8a7e944a0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVOA_RXD" input
+			(at 152.4 106.68 0)
+			(uuid "fbe87d62-53d4-43d1-8f21-83f4df74751a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVOA_TNOW" output
+			(at 152.4 109.22 0)
+			(uuid "a5fb955c-556f-40db-94a4-4055b0966e29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVOB_TXD" output
+			(at 152.4 123.19 0)
+			(uuid "19db9dbf-1032-4eee-969b-40a28b595c42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVOB_RXD" input
+			(at 152.4 125.73 0)
+			(uuid "738f0ab1-60c1-49fd-9dd8-cf70dfb95468")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVOB_TNOW" output
+			(at 152.4 128.27 0)
+			(uuid "b4097981-731c-4277-b5ef-3e4dddd252a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVOC_TXD" output
+			(at 152.4 142.24 0)
+			(uuid "74fd1405-0ceb-4f52-afaa-7055e256ebf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVOC_RXD" input
+			(at 152.4 144.78 0)
+			(uuid "42d492f5-93fd-49ec-9de5-e6d5386b45ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVOC_TNOW" output
+			(at 152.4 147.32 0)
+			(uuid "a3b42840-3896-4a03-8909-3681c75a0dc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVOD_TXD" output
+			(at 152.4 161.29 0)
+			(uuid "e6c53751-cc38-4569-a1c3-c62c9401fa57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVOD_RXD" input
+			(at 152.4 163.83 0)
+			(uuid "1f592519-33b7-4ef7-af87-bf4aa81ac0ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVOD_TNOW" output
+			(at 152.4 166.37 0)
+			(uuid "970e5b6a-7c53-4201-9704-ccad782bd4a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO_DP" bidirectional
+			(at 116.84 101.6 90)
+			(uuid "5dfa616c-b73e-403a-8f61-a963616f249d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO_DM" bidirectional
+			(at 119.38 101.6 90)
+			(uuid "6560e505-f412-4d50-99c0-fc8c38b73617")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "amos"
+				(path "/049ed167-7f00-4e6e-b407-0e51a9193256"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

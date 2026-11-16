@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -146,12 +146,12 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.3,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.5,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -256,7 +256,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -541,7 +541,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "fabrication/",
+      "plot": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -678,7 +678,7 @@
         "uuid": "049ed167-7f00-4e6e-b407-0e51a9193256"
       }
     ],
-    "used_designators": "#FLG1,#PWR1-166,#PWR174-176,#PWR181,#PWR189,#PWR197-199,#PWR204,#PWR212,#PWR220-222,#PWR227,#PWR235,#PWR245,#PWR255-340,C1-8,C207,C309,C311-319,C322,C408,C420-433,C705-719,C805-808,C906-919,C1205,C1208,C1302,C1308-1311,C1606,CN1-4,D1-18,D303,D704-706,D1202-1204,F1,FB701,JP1,L1-4,L602,Q1-4,R1-22,R312-313,R903,R910-911,R1204,R1302,TP1-4,TP202,TP302,TP602,TP802-813,U1-24,U703-704,USB1-4,USB_PORTA1,USB_PORTB1,USB_PORTC1,USB_UPSTREAM1,Y701-702,Y1101",
+    "used_designators": "#PWR1-165,#PWR255-257,C1-8,C309,C322,C1205,C1208,C1302,CN1-4,D1-18,D303,D704-706,D1202-1204,F1,FB701,JP1,L1-4,L602,Q1-4,R1-22,R312-313,R903,R910-911,R1204,R1302,TP1-4,TP202,TP302,TP602,TP802-813,U1-24,U703-704,USB1-4,USB_PORTA1,USB_PORTB1,USB_PORTC1,USB_UPSTREAM1,Y701-702,Y1101",
     "variants": []
   },
   "sheets": [
